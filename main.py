@@ -4,6 +4,7 @@ import random
 import smtplib
 import os
 import json
+import requests
 from twilio.rest import Client
 
 MY_EMAIL = os.environ.get("MY_EMAIL")
