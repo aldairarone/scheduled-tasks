@@ -43,4 +43,10 @@ jobs:
           # Add more secrets in Settings > Secrets > Actions
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
+          MY_TWILIO: ${{ secrets.MY_TWILIO }}
+          MY_PHONE: ${{ secrets.MY_PHONE }}
+          OWN_ENDPOINT: ${{ secrets.OWN_ENDPOINT }}
+          API_KEY: ${{ secrets.API_KEY }}
+          ACCOUNT_SID: ${{ secrets.ACCOUNT_SID }}
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
         run: python main.py
