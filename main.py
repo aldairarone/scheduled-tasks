@@ -8,7 +8,7 @@ from twilio.rest import Client
 
 MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASSWORD = os.environ.get("MY_PASSWORD")
-FROM_NUMBER = os.eviron.get("MY_TWILIO")
+FROM_NUMBER = os.environ.get("MY_TWILIO")
 TO_NUMBER = os.environ.get("MY_PHONE")
 OWN_ENDPOINT = os.environ.get("OWN_ENDPOINT")
 API_KEY = os.environ.get("API_KEY")
