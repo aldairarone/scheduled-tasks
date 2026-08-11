@@ -45,6 +45,10 @@ weather_params = {
 }
 
 response = requests.get(OWN_ENDPOINT, params=weather_params)
+
+print(f"OWN_ENDPOINT: {OWN_ENDPOINT}")
+print(f"API_KEY exists: {API_KEY is not None}")
+
 response.raise_for_status()
 weather_data = response.json()
 # print(weather_data["list"][0]["weather"][0]["id"])
